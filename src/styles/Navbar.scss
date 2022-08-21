@@ -27,8 +27,27 @@
         align-items: center;
         width: 30vw;
         a {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
             text-decoration: none;
             margin-right: 4em;
+            background-color: App.$teal;
+            color: #fff;
+            height: 35px;
+            width: 180px;
+            border-radius: 10px 25px 25px 10px;
+            p {
+                margin: 0 0 0 10px;
+            }
+            .arrow-nav {
+                width: 20px;
+                height: 20px;
+                rotate: 90deg;
+                margin: 0 15px 0 0;
+                fill: #fff;
+            }
         }
     }
 }

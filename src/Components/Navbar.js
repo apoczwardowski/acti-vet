@@ -1,5 +1,7 @@
 import {Link} from 'react-router-dom'
+import SvgArrow from '../Images/SvgArrow.js'
 import '../styles/Navbar.scss'
+
 
 const Navbar = () => {
     return(
@@ -12,7 +14,11 @@ const Navbar = () => {
                     <Link to="/contact">Contact</Link>
                 </div>
                 <div className="menu-right">
-                    <Link to="/appointment">Appointment</Link>
+                    <Link to="/appointment">
+                        <p>Appointment</p>
+                        <SvgArrow />
+                    </Link>
+                    
                 </div>
             </div>
         </div>
