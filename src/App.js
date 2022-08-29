@@ -2,6 +2,7 @@ import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import Services from './Components/Services'
 import Hero from './Components/Hero'
+import MenuTwo from './Components/MenuTwo'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './styles/App.scss'
 
@@ -11,6 +12,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Hero />
+        <MenuTwo />
         <div className="content">
           <Routes>
             <Route exact path="/" element={<Home />} />
