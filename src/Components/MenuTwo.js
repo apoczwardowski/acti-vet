@@ -7,7 +7,9 @@ const MenuTwo = () => {
         { image: 'src/Images/Gallery.jpg', title: 'Gallery', id: 1 },
         { image: 'src/Images/Gallery.jpg', title: 'Title-2', id: 2 },
         { image: 'src/Images/Gallery.jpg', title: 'Title-3', id: 3 },
-        { image: 'src/Images/Gallery.jpg', title: 'Title-4', id: 4 }
+        { image: 'src/Images/Gallery.jpg', title: 'Title-4', id: 4 },
+        { image: 'src/Images/Gallery.jpg', title: 'Title-5', id: 5 },
+        { image: 'src/Images/Gallery.jpg', title: 'Title-6', id: 6 }
     ])
 
     return (
