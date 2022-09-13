@@ -1,13 +1,14 @@
-@use 'App';
+@import 'App';
 
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: App.$dark-teal;
+    background-color: $dark-teal;
     width: 100vw;
-    height: 8vh;
+    height: 12vh;
+    font-size: 1.5em;
 
     .menu-left {
         display: flex;
@@ -18,6 +19,9 @@
         a {
             text-decoration: none;
             color: #fff;
+        }
+        a:hover {
+            color: #ddd;
         }
     }
 
@@ -33,21 +37,25 @@
             align-items: center;
             text-decoration: none;
             margin-right: 4em;
-            background-color: App.$teal;
+            background-color: $teal;
             color: #fff;
-            height: 35px;
-            width: 180px;
+            height: 55px;
+            width: 220px;
             border-radius: 10px 25px 25px 10px;
             p {
                 margin: 0 0 0 10px;
+                padding-left: 10px;
             }
             .arrow-nav {
-                width: 20px;
-                height: 20px;
+                width: 30px;
+                height: 30px;
                 rotate: 90deg;
                 margin: 0 15px 0 0;
                 fill: #fff;
             }
+        }
+        a:hover {
+            background-color: #b4d6da;
         }
     }
 }
